@@ -29,18 +29,18 @@ function App() {
       country.name.common.toLowerCase().includes(search.toLowerCase())
     );
     setFiltered(data);
-    console.log(data);
   }, [search]);
 
   console.log(countries);
   return (
     <div>
-      <input
-        type="text"
-        className="input"
-        placeholder="Enter a country"
-        onChange={(e) => handleChange(e)}
-      />
+      <div className="inp">
+        <input
+          type="text"
+          placeholder="Enter a country"
+          onChange={(e) => handleChange(e)}
+        />
+      </div>
       <div className="App">
         {search === ""
           ? countries.map((country) => {

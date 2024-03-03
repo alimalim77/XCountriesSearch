@@ -6,9 +6,17 @@
   width: 100%;
 }
 
-.input {
+.inp {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  padding: 5%;
+}
+
+.inp input {
+  font-size: larger;
+  font-weight: bolder;
+  border: 5px solid;
 }
 
 .countryCard {
