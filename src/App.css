@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.countryCard {
+  padding: 2%;
+  margin: 2%;
+  border: 3px solid;
+}
+
+img {
+  width: 15vw;
+  height: 20vh;
+}
