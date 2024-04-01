@@ -55,7 +55,7 @@ function App() {
               return (
                 <div className="countryCard">
                   <img src={country.flags.png} alt={country.flag}></img>
-                  <h3>{country.name.common}</h3>
+                  <p>{country.name.common}</p>
                 </div>
               );
             })}
